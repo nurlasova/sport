@@ -1,0 +1,30 @@
+.hero {
+  background-image: url(/src/img/png/hero_bg.png);
+  @include bg__img(100%, 100%, no-repeat, cover, center);
+  &__title {
+    @include font($color-white, 48px, normal, $font-robo);
+    text-align: center;
+    padding-top: 320px;
+  }
+  &__description {
+     padding-top: 50px;
+     color: $color-white;
+
+  }
+  &__button--men,
+  &__button--women {
+    width: 180px;
+  }
+  &__button--men {
+    margin-right: 12px;
+  }
+  &__button--women {
+    margin-left: 12px;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    padding: 207px 0 66px 0;
+  }
+  
+}

@@ -1,0 +1,25 @@
+.made{
+    &__title {
+        letter-spacing: 0.5px;
+        padding: 48px 0 16px;
+      }
+    &__img {
+        @include flex-center();
+        margin: 0 auto;
+      }
+      &__description{
+          width: 655px;
+          margin: 0 auto;
+          line-height: 24px;
+      }
+      &__button{
+        width: 385px;
+        @include flex-center();
+        margin: 25px 0 120px;
+        text-transform: uppercase;
+
+      }
+      &__row{
+        @include flex-center();
+      }
+}
