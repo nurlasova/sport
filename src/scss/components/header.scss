@@ -1,7 +1,13 @@
 .header {
-  margin-top: 20px;
-  .row{
-    margin:auto;
+  margin: 20px 0;
+  &__row{
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title{
+    @include font($color-darkBlue, 36px, 600, $font-robo);
+    text-align: center;
+    text-transform: uppercase;
   }
   &__nav, &__nav1 {
     @include font($color-darkBlue, 12px, 600, $font-robo);
@@ -10,8 +16,9 @@
     &__nav{
       margin-right: 30px;
    }
-&__navigation {
-    @include flex-center(center);
+&__navigat{
+    display: flex;
+    align-items: center;
   }
   &__logo {
     @include flex-center();
