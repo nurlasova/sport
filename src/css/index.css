@@ -207,7 +207,7 @@ a {
 }
 
 .hero {
-  background-image: url(/src/img/png/hero_bg.png);
+  background-image: url(../img/png/hero_bg.png);
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -295,11 +295,11 @@ a {
 }
 
 .favorite__buttons1 {
-  background-image: url(/src/img/png/shoes1.png);
+  background-image: url(../img/png/shoes1.png);
 }
 
 .favorite__buttons2 {
-  background-image: url(/src/img/png/shoes3.png);
+  background-image: url(../img/png/shoes3.png);
 }
 
 .favorite__button--men, .favorite__button--women {
